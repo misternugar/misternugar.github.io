@@ -1,0 +1,12 @@
+# alfredenegarcia.github.io
+Alfred Ene García Site
+
+¡Hello world!
+
+To start with GitHub and learn more about it i'm going to create and show you all the process about my new web site, 
+using the GitHub pages. (https://pages.github.com/) 
+
+Welcome to my universe.
+
+Alfred Ene García.
+alfredoenegarcia@gmail.com
