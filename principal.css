@@ -1,0 +1,263 @@
+/*Alfred Ene García*/
+
+/*Página principal*/
+
+/* Reseteo propiedades CSS*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body, html{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-color: white
+}
+
+
+/* LAYAOUT */
+/* Posicionamiento de cajas */
+
+/* Propiedades de cajas */
+
+header {
+    width: 100%;
+    height: 18%;
+    background-color: mediumaquamarine
+    position: relative;
+    
+}
+
+body {
+    height: 108%;
+}
+
+footer{
+    background-color: white;
+    margin-top:50px;
+    width:100%;
+    height:20%;
+}
+
+/* HEADER */
+
+header>nav {
+    width: 100%;
+    float: right;
+    position: absolute;
+    text-align: right;
+    bottom: 0%;
+}
+
+/* RRSS */
+
+#menuheader{
+    list-style-type: none;
+}
+
+#menuheader:hover{
+    color:white;
+}
+
+header>nav>ul>li{
+    right: 5.25%;
+    position: relative;
+    display: inline-block;
+}
+
+.checkbtn{
+
+    font-size: 28px;
+    color:mediumaquamarine;
+    float: right;
+    line-height: 30px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+
+}
+
+#check {
+    display:none;
+}   
+
+
+/* MAIN */
+
+main {
+    position:relative;
+    height: 120%;
+}
+
+
+/* FOOTER */
+
+    /* RRSS */
+  
+    footer>nav>ul{
+        position: absolute;
+        display: inline-flex;
+        list-style-type: none;
+        top: 155%;
+        left: 43.5%;
+    }
+
+    /* Responsive */
+
+        /* Tablet */
+
+@media (max-width: 952px) {
+
+            /* logo */
+
+.enlace{
+    padding-left: 20px;
+}
+
+            /* Buscador */
+
+#buscador {
+    top: 52%;
+    }
+
+            /* Main */
+h1{
+    font-size: 35px;
+    width: 35%;
+    left: 25px;
+}
+p {
+    font-size: 15px;
+    top: 135px;
+    left: 25px;
+    width: 31%;
+}
+
+main section h2{
+    font-size: 15px;
+    left: 400px;
+}
+
+            /* Flor de lis */
+
+#menu img{
+    right: 64px;
+}
+
+            /* Menu main vertical */ 
+
+#menu ul{
+    left: 775px;
+    top: 155px;
+    float: left;
+    font-size: 18px;
+    position: relative;
+}
+
+#menu li:hover ul{
+    z-index: 5;
+}
+
+        /* Footer */
+
+footer img{
+    left: 468px;
+}
+
+}
+
+/* Móvil */
+
+@media (max-width: 858px) {
+
+    /* Body */
+
+    body{
+        height: 100%;
+    }
+
+    /* Menú header */
+
+    .checkbtn{
+        display: block;
+        margin-bottom: 4px;
+    }
+    #buscador {
+        top: 58%;
+        }
+    
+    #menuheader {
+        position: fixed;
+        width: 100%;
+        height: 20%;
+        background: white;
+        top: 110px;
+        left: -100%;
+        transition: all .5s;
+        text-align: center;
+        z-index: 5;
+    }
+    
+    #check:checked ~ #menuheader{
+        left: 0;
+    }
+
+    /* Main */
+
+main nav img{
+    left: 550px;
+    position: relative;
+}
+
+h1{
+    font-size: 30px;
+    width: auto;
+    top: 25px;
+    margin-left: 3%;
+}
+p {
+    font-size: 15px;
+    width: auto;
+    margin-left: 3%;
+    top: 165px;
+}
+main section h2{
+    font-size: 15px;
+    left: 375px;
+}
+
+    /* Menú secciones vertical */
+
+#menu ul{
+    font-size: 18px;
+    left: 680px;
+    top: 150px;
+    float: left;
+    position: relative;
+}
+
+#menu li:hover ul{
+    z-index: 9;
+}
+
+    /* Footer */
+
+footer img{
+    left: 425px;
+}
+
+}
+© 2022 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
