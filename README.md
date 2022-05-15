@@ -1,5 +1,5 @@
-# alfredenegarcia.github.io
-Alfred Ene García Site
+# alfredteulada.github.io
+Alfred Teulada Site
 
 ¡Hello world!
 
@@ -8,5 +8,5 @@ using the GitHub pages. (https://pages.github.com/)
 
 Welcome to my universe.
 
-Alfred Ene García.
+Alfred Teulada.
 alfredoenegarcia@gmail.com
