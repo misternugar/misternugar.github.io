@@ -9,4 +9,3 @@ using the GitHub pages. (https://pages.github.com/)
 Welcome to my universe.
 
 Alfred Teulada.
-alfredoenegarcia@gmail.com
